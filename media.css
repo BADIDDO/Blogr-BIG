@@ -1,0 +1,83 @@
+@media (max-width : 664px) {
+    body{
+        overflow-x: hidden;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav .logo-links {
+        gap: 10px;
+    }
+    .links {
+        display: flex;
+        flex-direction: row;
+    }
+    nav .logo-links h2 {
+        font-size: 25px;
+    }
+    .links li {
+        padding: 0 0px;
+        }
+        .links li a {
+            font-size: 14px;
+            }
+.links li i {
+ font-weight: 400;
+}
+.nav-btn .login , .sing-up {
+    padding: 5px 15px;
+    font-size: 14px;
+}
+.header-content h1 {
+    font-size: 35px;
+    letter-spacing: 0px;
+    font-weight: 600;
+  }
+  .header-content h5 {
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .content-btn .start , .learn{
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+  .designed h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 80px;
+  }
+  .designed-content {
+    flex-direction: column;
+   }
+   .designed-content .text {
+    width: 100%;
+  }
+  .designed-logo img {
+display: none;
+  }
+  .state {
+flex-direction: column;
+  }
+  .state-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .state-logo {
+      display: none;
+  }
+  .state-text{
+      height: 400px;
+    align-items: center;
+  }
+  .state-text h3 {
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-size: 22px;
+  }
+  .state-text p {
+    font-weight: 400;
+    font-size: 18px;
+    }
+}
